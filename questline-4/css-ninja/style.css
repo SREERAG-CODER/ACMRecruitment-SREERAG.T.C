@@ -1,0 +1,33 @@
+html{
+    background: linear-gradient(to right,aqua,white);
+}
+#name{
+    text-align: center;
+    color: rgb(27, 72, 74);
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left {
+    flex: 1;
+    padding: 30px;
+}    
+
+.right {
+    flex: 1;
+    padding-left: 900px;
+    padding-top: 30px;
+}
+
+#aboutme{
+    color: crimson;
+}
+#skills{
+    color: crimson;
+}
+
+.txt{
+    font-family:cursive;
+}
